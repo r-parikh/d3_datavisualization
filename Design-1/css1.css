@@ -1,0 +1,48 @@
+#barchartparent{
+    width:1500px;
+    height:800px;
+    border:1px solid black;
+}
+.child1{
+    width:748px;
+    height:800px;
+    float:left;
+    border:1px solid red;
+}
+.child2{
+    width:748px;
+    height:800px;
+    float:right;
+    border:1px solid red;
+}
+
+.region {
+    transition: ease-out;
+    transition-duration: 400ms;
+    fill: skyblue;
+}
+
+.notg20{
+    stroke: black;
+    fill: none;
+}
+
+.hover {
+    transition: ease-in;
+    transition-duration: 350ms;
+    fill: #ff6f69;
+}
+
+.selected{
+    stroke: #fff;
+    fill: orange;
+}
+
+#regName{
+    position: absolute;
+    top:  150px;
+    height: 22px;
+    width: 250px;
+    padding: 3px;
+    text-align:center;
+}
